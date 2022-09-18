@@ -44,10 +44,6 @@ const deliverySchema = new mongoose.Schema(
       type: String,
       required: true,
       lowercase: true,
-    },
-    orderId:{
-      type: String,
-      required: true,
     }
   },
   {
